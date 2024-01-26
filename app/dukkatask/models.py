@@ -1,4 +1,3 @@
-# yourapp/models.py
 from django.db import models
 
 class UserProfile(models.Model):
