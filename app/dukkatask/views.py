@@ -2,6 +2,7 @@ from rest_framework import generics
 from rest_framework.response import Response
 from .models import UserProfile
 from .serializers import UserProfileSerializer
+from rest_framework.permissions import IsAuthenticated
 import speech_recognition as sr
 from gtts import gTTS
 import os
